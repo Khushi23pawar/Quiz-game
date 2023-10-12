@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style >
+		#answer_sheet{
+			text-transform: uppercase;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center">Answer sheet</h1>
+	<h5 id="answer_sheet"></h5>
+<script >
+	var que=[
+				{q:'what is java script',a:'a language',b:'a platform',c:'a error',d:'a exception',ans:'a'},
+	            {q:'javascript is an_______language',a:'object-oriented',b:'object-based',c:'Procedural',d:'None of above',ans:'a'},
+	            {q:'Which of the following methods can be used to display data in some form using Javascript?',a:'document.write()',b:'console.log()',c:'window.alert()',d:'all of the above',ans:'d'},
+
+	            {q:'How can a datatype be declared to be a constant type?',a:'const',b:'var',c:'let',d:'constant',ans:'a'},
+	            {q:'What keyword is used to check whether a given property is valid or not?',a:'in',b:'is in',c:'exsist',d:'lies',ans:'a'},
+	            {q:'Which of the following keywords is used to define a variable in Javascript?',a:'var',b:'let',c:'Both a & b',d:'none of above',ans:'c'},
+	            {q:'Which of the following methods is used to access HTML elements using Javascript?',a:'getElementById()',b:'getElementsByClassName()',c:'Both a & b',d:'none of above',ans:'c'},
+
+	            {q:'What is the use of the <noscript> tag in Javascript?',a:'The contents are displayed by non-js-based browser',b:'clears all the cookies and cache',c:'Both a & b',d:'none of above ',ans:'a'},
+	            {q:'When an operator’s value is NULL, the typeof returned by the unary operator is:',a:'Boolean',b:'undefined',c:'object',d:'integer',ans:'c'},
+
+	            {q:'How do we write a comment in javascript?',a:'/* */',b:'//',c:'##',d:'&&',ans:'b'},
+
+	            {q:'Which object in Javascript doesn’t have a prototype?',a:'Base object',b:'All objects have a prototype',c:'none of the object have a prototype',d:'none of all above',ans:'a'},
+
+	            {q:'Which of the following are not server-side Javascript objects?',a:'Date',b:'FileUpload',c:'function',d:'all the above',ans:'d'},
+
+	            {q:'Arrays in JavaScript are defined by which of the following statements?',a:' It is an ordered list of values',b:'It is an ordered list of objects',c:'It is an ordered list of string',d:'It is an ordered list of string',ans:'a'},
+
+	            {q:'Which of the following is not javascript data types?',a:' Null type',b:' Undefined type',c:'Number type',d:'All of the mentioned',ans:'d'},
+
+	            {q:'Which of the following object is the main entry point to all client-side JavaScript features and APIs?',a:'Position',b:'Window',c:'Standard',d:'Location',ans:'b'},
+
+	            {q:'Which of the following can be used to call a JavaScript Code Snippet?',a:'Function/Method',b:'Preprocessor',c:'Triggering Event',d:'RMI',ans:'a'},
+
+	            {q:'Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?',a:' will work perfectly well on a Windows Machine',b:'will be displayed as JavaScript text on the browser',c:' will throw errors and exceptions',d:' must be restricted to a Unix Machine only',ans:'a'},
+
+	            {q:' Which of the following scoping type does JavaScript use?',a:' Sequential',b:' Segmental',c:' Lexical',d:'Literal',ans:'c'},
+
+	            {q:' What is the basic difference between JavaScript and Java?',a:'Functions are considered as fields',b:'Functions are values, and there is no hard distinction between methods and fields',c:'Variables are specific',d:'There is no difference',ans:'b'},
+
+	            {q:'Why JavaScript Engine is needed?',a:'Both Compiling & Interpreting the JavaScript',b:'Parsing the javascript',c:'Interpreting the JavaScript',d:' Compiling the JavaScript',ans:'c'},
+
+	            {q:'Which of the following methods/operation does javascript use instead of == and !=?',a:' JavaScript uses equalto()',b:' JavaScript uses equals() and notequals() instead',c:'JavaScript uses bitwise checking',d:'JavaScript uses === and !== instead',ans:'d'},
+
+	            {q:'Why event handlers is needed in JS?',a:' Allows JavaScript code to alter the behaviour of windows',b:'Adds innerHTML page to the code',c:'Change the server location',d:' Performs handling of exceptions and occurrences',ans:'a'},
+	            {q:' Which of the following is not a framework?',a:' JavaScript .NET',b:'JavaScript',c:'Cocoa JS',d:' jQuery',ans:'b'},
+
+	            {q:'Which of the following is the property that is triggered in response to JS errors?',a:'Onclick',b:'Onerror',c:'Onmessage',d:'Onexception',ans:'b'},
+
+	            {q:'Which of the following is not an error in JavaScript?',a:'Missing of Bracket',b:'Division by zero',c:'Syntax error',d:'Missing of semicolons',ans:'b'},
+
+	            {q:'Which identifier is used to represent a web browser window or frame?',a:' frames',b:'Window',c:'Location',d:'Frame',ans:'b'},
+	            
+	            {q:'When will the window property come into play?',a:' Representation convenience',b:' Use as an extension of other objects',c:'Use objects in the Window object',d:'Refer to window object itself',ans:'d'},
+
+	            {q:'Which is the property that represents the content displayed in the window?',a:'document',b:'content',c:'window',d:'frame',ans:'a'},
+
+	            {q:'How are windows, tabs, iframes, and frames treated according to client-side javascript?',a:'They are all browsing contexts',b:'They are all browsing information',c:'They are all Window contexts',d:'They are all Window objects',ans:'a'},
+
+
+	            {q:' A new web browser window can be opened using which method of the Window object?',a:' createtab()',b:'Window.open()',c:' open()',d:'create()',ans:'b'},
+
+	            {q:'What will happen if the first argument of open() is omitted?',a:'Error Page',b:'Remains in the same page',c:'about:blank',d:'Reloads the page',ans:'b'},
+                {q:'what is python',a:'a language',b:'a platform',c:'a error',d:'a exception',ans:'a'},
+	            {q:'what is sql',a:'a language',b:'a platform',c:'a error',d:'a exception',ans:'a'},
+	            
+
+	]
+for(j=0;j<que.length;j++){
+	document.getElementById("answer_sheet").innerHTML += (j+1)+ ". "+que[j].ans +"<br/>";
+}
+
+
+
+</script>
+</body>
+</html>
